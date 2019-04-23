@@ -1,0 +1,117 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+#instruction{
+    color: darkgoldenrod;
+  
+    margin: auto;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+
+    
+}
+h1{
+
+    font-size: 50px;
+    color: chocolate;
+    text-shadow: 2px 1px coral;
+    font-weight: bold;
+}
+#serial{
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid rosybrown;
+    
+
+}
+#serial:focus{
+    background-color: beige;
+    border: none;
+}
+
+p{
+    float: left;
+    color: brown;
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
+}
+#main{
+    width: 60%;
+    margin: auto;
+    border: 2px chartreuse;
+}
+#login-name{
+
+    color: cadetblue;
+    text-shadow: 2px 2px skyblue;
+    font-size: 50px;
+    text-align: center;
+}
+#main-container{
+    margin: auto;
+    width: 80%;
+ 
+    
+    
+
+}
+.conatainer{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#quizcontainer{
+    height: 400px;
+    background-color: indianred;
+    border: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+    
+}
+#nxt-btn{
+    float: right;
+}
+#timer{
+    float: right;
+    color: black;
+    font-size: 20px;
+}
+#question{
+    color: black;
+}
+span{
+    color: black;
+     font-weight: bold;
+     
+}
+#resultcontainer{
+    color: darkmagenta;
+    text-shadow: 2px 1px darkorchid;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    background-color: coral;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+    
+}
+#copy{
+    color: cadetblue;
+    text-shadow: 1px 1px skyblue;
+    font-size:20px;
+    text-align: center;
+}
+#start{
+    margin: 0 auto;
+    width: 70%;
+    opacity: 0.5;
+    filter:  alpha(opacity=50);
+}

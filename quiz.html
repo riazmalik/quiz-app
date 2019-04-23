@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- <button onclick="logout()" id="logout-btn" class="btn btn-secondary" >Logout</button>-->
+        <br><br><br><br><br> 
+    <div class="container-fluid" id="main-container" >
+    <div id="quizcontainer" class="alert alert-warning" role="alert" >
+    <h2 id="timer"></h2><br><br>
+    <div role="alert" id="ques">
+        
+          
+          
+        <h5 id="question"></h5></div>
+        <hr>
+        
+          <br><br>
+          
+        <label for="rd1"><input type="radio" value="1" name="option" id="rd1" ><span id="option1" id="radio"  class="checkmark"></span></label><br>
+
+                <label for="rd2"><input type="radio"value="2" name="option" id="rd2" class="checkmark"><span id="option2"></span></label><br>
+                
+                        <label for="rd3"><input type="radio" value="3"name="option" id="rd3" ><span id="option3"  class="checkmark"></span></label><br>
+                        
+                                <label for="rd4"><input type="radio"  value="4" name="option" id="rd4"  class="checkmark"><span id="option4"></span></label><br><br>
+        
+        <br>                        <button onclick="next()" id="nxt-btn" class="btn btn-warning">  Next</button>
+    </div>
+    <div id="resultcontainer" style="display:none">
+            <div class="alert alert-warning" role="alert">
+   <h1 id="passed"></h1><br>
+   <h1 id="failed"></h1><br>
+   <h2 id="score"></h2>
+   <hr>
+   <h3 id="copy">Designed By : Muhammad Riaz Yasin</h3>
+            </div>
+
+
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
